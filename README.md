@@ -7,19 +7,25 @@ npx-distributable package for the `carousell-har-backend-sync` Hermes skill.
 Print the packaged skill:
 
 ```bash
-npx github:netzam/nz-carousell-skill print
+npx github:netzam/nz-carousell-skill skills print
 ```
 
 Install into the local Hermes skills directory:
 
 ```bash
-npx github:netzam/nz-carousell-skill install
+npx github:netzam/nz-carousell-skill skills add
+```
+
+One-line installer:
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/netzam/nz-carousell-skill/main/install.sh)"
 ```
 
 Override the destination if needed:
 
 ```bash
-npx github:netzam/nz-carousell-skill install --target /custom/path/SKILL.md
+npx github:netzam/nz-carousell-skill skills add --target /custom/path/SKILL.md
 ```
 
 ## Contents

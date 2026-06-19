@@ -5,14 +5,25 @@
   "license": "MIT",
   "type": "commonjs",
   "bin": {
-    "nz-carousell-skill": "bin/cli.js"
+    "nz-carousell-skill": "bin/cli.js",
+    "skills": "bin/cli.js"
   },
   "files": [
     "SKILL.md",
     "README.md",
+    "install.sh",
     "bin"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/netzam/nz-carousell-skill.git"
+  },
+  "homepage": "https://github.com/netzam/nz-carousell-skill#readme",
   "scripts": {
-    "test": "node bin/cli.js --help"
+    "test": "node bin/cli.js --help",
+    "pack": "npm pack --json"
   }
 }
