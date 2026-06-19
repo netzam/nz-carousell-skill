@@ -24,6 +24,7 @@
   "homepage": "https://github.com/netzam/nz-carousell-skill#readme",
   "scripts": {
     "test": "node bin/cli.js --help",
-    "pack": "npm pack --json"
+    "pack": "npm pack --json",
+    "release": "npm test && npm pack --json && npm publish --provenance --access public"
   }
 }

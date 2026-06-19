@@ -22,6 +22,12 @@ One-line installer:
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/netzam/nz-carousell-skill/main/install.sh)"
 ```
 
+Local release command:
+
+```bash
+npm run release
+```
+
 Override the destination if needed:
 
 ```bash
