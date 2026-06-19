@@ -1,0 +1,18 @@
+{
+  "name": "nz-carousell-skill",
+  "version": "1.0.0",
+  "description": "npx package for the Carousell HAR-backed Hermes skill",
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": {
+    "nz-carousell-skill": "bin/cli.js"
+  },
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "bin"
+  ],
+  "scripts": {
+    "test": "node bin/cli.js --help"
+  }
+}
