@@ -22,11 +22,12 @@ One-line installer:
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/netzam/nz-carousell-skill/main/install.sh)"
 ```
 
-Local release command:
+Automatic release flow:
 
-```bash
-npm run release
-```
+1. Merge to `main`
+2. GitHub Actions opens or updates a release PR
+3. Merging the release PR creates a Git tag and GitHub Release
+4. The npm publish workflow fires from that release
 
 Override the destination if needed:
 
